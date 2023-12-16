@@ -79,7 +79,7 @@ llm= Together ( together_api_key = "2332ed28db876b7f1a700baa5a257464381df06b99e8
                     
                 )
 
-agent=create_pandas_dataframe_agent(llm=llm (temperature=0),
+agent=create_pandas_dataframe_agent(llm=llm,
                                     df=df,max_execution_time=1600,
                                     max_iterations=1000,
                                     verbose=True,
