@@ -3,9 +3,9 @@ pandas
 plotly
 streamlit
 openpyxl
-langchain_experimental.agents.agent_toolkits
+langchain_experimental
 langchain
 typing
-langchain.document_loaders.csv_loader
+langchain.document_loaders
 tempfile
 os
