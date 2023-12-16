@@ -72,7 +72,7 @@ with NamedTemporaryFile(delete=False) as tmp_file:
 df = pd.read_excel(tmp_file_path)
 
 llm= Together ( together_api_key = "2332ed28db876b7f1a700baa5a257464381df06b99e8213b4dade9a00091caa1",
-                model="mistralai/Mistral-7B-Instruct-v0.2",
+                model="mistralai/Mixtral-8x7B-Instruct-v0.1",
                     temperature=0,
                     max_tokens=2000,
                     top_k=1
