@@ -21,7 +21,7 @@ from tempfile import NamedTemporaryFile
 import os
 
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
-os.environ[ "together_api_key"] = st.secrets["TOGETHER_API_KE"]
+os.environ[ "together_api_key"] = st.secrets["TOGETHER_API_KEY"]
 
 #######################################
 # PAGE SETUP
