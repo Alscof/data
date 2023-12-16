@@ -6,6 +6,5 @@ openpyxl
 langchain_experimental
 langchain
 typing
-langchain.document_loaders
 tempfile
 os
