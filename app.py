@@ -14,6 +14,7 @@ from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe
 from langchain.agents.agent_types import AgentType
 from langchain.chat_models import ChatOpenAI
 from langchain.llms import OpenAI
+from langchain.llms import Together
 from langchain_experimental.agents.agent_toolkits import create_csv_agent
 from typing import TextIO
 from langchain.document_loaders.csv_loader import CSVLoader
@@ -70,7 +71,7 @@ with NamedTemporaryFile(delete=False) as tmp_file:
 
 df = pd.read_excel(tmp_file_path)
 
-agent=create_pandas_dataframe_agent(llm=OpenAI(temperature=0),
+agent=create_pandas_dataframe_agent(llm=Together (temperature=0),
                                     df=df,max_execution_time=1600,
                                     max_iterations=1000,
                                     verbose=True,
