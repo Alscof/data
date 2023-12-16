@@ -16,7 +16,7 @@ cachetools==5.3.2
 certifi==2023.11.17
 charset-normalizer==3.3.2
 ci-info==0.3.0
-cleo==2.0.1
+cleo
 click==8.1.7
 colorama==0.4.6
 configobj==5.0.8
