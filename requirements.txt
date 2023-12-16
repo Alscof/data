@@ -6,5 +6,4 @@ openpyxl
 langchain_experimental
 langchain
 typing
-tempfile
-os
+
