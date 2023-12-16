@@ -20,7 +20,7 @@ from langchain.document_loaders.csv_loader import CSVLoader
 from tempfile import NamedTemporaryFile
 import os
 
-os.environ[ "OPENAI_API_KEY"] = ""
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
 #######################################
 # PAGE SETUP
